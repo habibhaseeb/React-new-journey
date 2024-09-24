@@ -10,6 +10,10 @@ function component() {
         <li><button>Services</button></li></ul></nav>
     </div>
 <h1> Welcome to start React.js journey</h1>
+ <newComp/>
 </>
 }
+
+
 export default component;
+// continue code 
