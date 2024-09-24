@@ -1,6 +1,6 @@
 import Header from '../Header/header.css'
 
-
+const colorOFPARA = '#222';
 function component() {
     return <>
     <div className="navbar">
@@ -9,8 +9,9 @@ function component() {
         <li><button>Blog</button></li>
         <li><button>Services</button></li></ul></nav>
     </div>
-<h1> Welcome to start React.js journey</h1>
- <newComp/>
+    <div className="container" style={{maxWidth: 500 , color: 'white',borderRadius:'10px',margin: '50px', fontFamily: 'sans-serif', lineHeight: '23px', border: '1px solid black', padding: '1.5rem', backgroundColor: '#321'}}>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente cumque molestiae corporis, quo, voluptate commodi nostrum iste vero recusandae pariatur esse, ad officia aliquam dolore illo explicabo saepe consequuntur facere.</p>
+    </div>
 </>
 }
 
